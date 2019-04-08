@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".BSem8sub"></activity>
+        <activity android:name=".BSem7sub" />
+        <activity android:name=".BSem6sub" />
+        <activity android:name=".BSem5sub" />
+        <activity android:name=".BSem4sub" />
+        <activity android:name=".BSem3sub" />
+        <activity android:name=".BSem2sub" />
+        <activity android:name=".BSem1sub" />
+        <activity android:name=".MBASem10sub" />
+        <activity android:name=".MBASem9sub" />
+        <activity android:name=".MBASem8sub" />
+        <activity android:name=".MBASem7sub" />
+        <activity android:name=".MBASem6sub" />
+        <activity android:name=".MBASem5sub" />
+        <activity android:name=".MBASem4sub" />
+        <activity android:name=".MBASem3sub" />
+        <activity android:name=".MBASem2sub" />
+        <activity android:name=".MBASem1sub" />
+        <activity android:name=".MBMttTt" />
+        <activity android:name=".MBSelectTT" />
+        <activity android:name=".Mbatech1" />
+        <activity android:name=".BMttTt" />
+        <activity android:name=".PDFWebView" />
+        <activity android:name=".BSelectTT" />
+        <activity android:name=".Btech1" />
+        <activity android:name=".Facultyinfo" />
+        <activity android:name=".Course_select">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
